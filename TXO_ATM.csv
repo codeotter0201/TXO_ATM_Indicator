@@ -1,4 +1,4 @@
-,date,contract,strike_price,op_fair_price,day,close,atr
+,date,contract,strike_price,TXO_ATM,day,close,atr
 0,2021-01-04,202101W1,14850.0,142.0,Monday,14874.0,
 1,2021-01-05,202101W1,15000.0,213.0,Tuesday,14977.0,
 2,2021-01-06,202101W2,14900.0,307.0,Wednesday,14911.0,

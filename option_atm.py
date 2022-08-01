@@ -91,7 +91,7 @@ if __name__ == '__main__':
       'date':[],
       'contract':[],
       'strike_price':[],
-      'op_fair_price':[],
+      'TXO_ATM':[],
   }
 
   opt_data['fair_price'] = opt_data.strike_price
@@ -112,7 +112,7 @@ if __name__ == '__main__':
     temp_df['date'].append(v['date'])
     temp_df['contract'].append(contract)
     temp_df['strike_price'].append(temp.strike_price.iloc[0])
-    temp_df['op_fair_price'].append(temp.close.sum())
+    temp_df['TXO_ATM'].append(temp.close.sum())
 
   option_fair_price = pd.DataFrame(temp_df)
 
